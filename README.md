@@ -43,3 +43,18 @@ python mlp_cli.py create ./my_ml_project ./my_dataset
 ```
 
 This command will create the project structure in `./my_ml_project` using the dataset from `./my_dataset`.
+
+
+## Bash Script ( by gemini ) 
+
+How to Use the Bash Script:
+
+Save the code above as create_ml_project.sh.
+
+Make it executable: chmod +x create_ml_project.sh.
+
+Run it: ./create_ml_project.sh create ./my_new_ml_project ./path/to/my/dataset
+
+Replace ./my_new_ml_project with your desired output directory name.
+
+Replace ./path/to/my/dataset with the actual path to your dataset folder (which should contain train, test, validation subfolders if you want them copied).
